@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>TryHackMe on Cybersec Journey</title>
+    <link>http://localhost:1313//github.com/charleskhervie/tags/tryhackme/</link>
+    <description>Recent content in TryHackMe on Cybersec Journey</description>
+    <generator>Hugo -- 0.153.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Dec 2025 11:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313//github.com/charleskhervie/tags/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blue Writeup</title>
+      <link>http://localhost:1313//github.com/charleskhervie/posts/blue-writeup/</link>
+      <pubDate>Wed, 31 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>http://localhost:1313//github.com/charleskhervie/posts/blue-writeup/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is a walkthrough of the &lt;a href=&#34;https://tryhackme.com/room/blue&#34;&gt;Blue&lt;/a&gt; room on TryHackMe. The target machine is vulnerable to &lt;strong&gt;MS17-010 (EternalBlue)&lt;/strong&gt;, a famous kernel exploit used by the WannaCry ransomware.&lt;/p&gt;
+&lt;h2 id=&#34;reconnaissance&#34;&gt;Reconnaissance&lt;/h2&gt;
+&lt;p&gt;I started with an Nmap scan to identify open ports:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nmap -sV --script vuln &amp;lt;TARGET_IP&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

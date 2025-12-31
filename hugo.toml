@@ -1,0 +1,7 @@
+baseURL = 'https://https://github.com/charleskhervie/'
+languageCode = 'en-us'
+title = 'Cybersec Journey'
+theme = 'PaperMod'
+
+[params]
+defaultTheme = "dark"

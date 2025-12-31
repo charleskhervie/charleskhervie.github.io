@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Cybersec Journey</title>
+    <link>http://localhost:1313//github.com/charleskhervie/tags/</link>
+    <description>Recent content in Tags on Cybersec Journey</description>
+    <generator>Hugo -- 0.153.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Dec 2025 11:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313//github.com/charleskhervie/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blue</title>
+      <link>http://localhost:1313//github.com/charleskhervie/tags/blue/</link>
+      <pubDate>Wed, 31 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>http://localhost:1313//github.com/charleskhervie/tags/blue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EternalBlue</title>
+      <link>http://localhost:1313//github.com/charleskhervie/tags/eternalblue/</link>
+      <pubDate>Wed, 31 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>http://localhost:1313//github.com/charleskhervie/tags/eternalblue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Metasploit</title>
+      <link>http://localhost:1313//github.com/charleskhervie/tags/metasploit/</link>
+      <pubDate>Wed, 31 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>http://localhost:1313//github.com/charleskhervie/tags/metasploit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TryHackMe</title>
+      <link>http://localhost:1313//github.com/charleskhervie/tags/tryhackme/</link>
+      <pubDate>Wed, 31 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>http://localhost:1313//github.com/charleskhervie/tags/tryhackme/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
