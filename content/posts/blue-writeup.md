@@ -1,15 +1,22 @@
 ---
-title: "Blue Writeup"
-date: 2025-12-31T11:00:00+08:00
+title: "TryHackMe: Blue Writeup"
+date: 2025-12-31T11:45:00+08:00
 draft: false
-tags: ["TryHackMe", "Blue", "EternalBlue", "Metasploit"]
+tags: ["TryHackMe", "Windows", "EternalBlue", "MS17-010"]
 ---
 
-## Introduction
-This is a walkthrough of the [Blue](https://tryhackme.com/room/blue) room on TryHackMe. The target machine is vulnerable to **MS17-010 (EternalBlue)**, a famous kernel exploit used by the WannaCry ransomware.
+**Room:** [Blue](https://tryhackme.com/room/blue)  
+**Difficulty:** Easy  
+**Target:** Windows 7 Professional (x64)
 
-## Reconnaissance
-I started with an Nmap scan to identify open ports:
+In this room, we exploit a Windows machine vulnerable to the famous **EternalBlue** (MS17-010) exploit, which was used to spread the WannaCry ransomware. This is a classic example of why patching SMB is critical.
+
+## Task 1: Reconnaissance
+
+The first step is to identify the target machine's services and potential vulnerabilities. I started with a comprehensive Nmap scan to enumerate open ports and service versions.
+
+### 1. Initial Nmap Scan
+I used the following command to scan the target:
 
 ```bash
-nmap -sV --script vuln <TARGET_IP>
+nmap -sV -sC -T4 <TARGET_IP>
